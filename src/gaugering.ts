@@ -1,11 +1,7 @@
 'use strict';
 
-import { save, restore, linearScale, PI, ring, height, prnt, strokeWidth, stroke, fill,
-        blend, 
-        textOnArc,
-        textSize,
-        TextAlign,
-        fontFamily} from "dvlib";
+import { save, restore, linearScale, PI, ring, height, strokeWidth, stroke, fill,
+        blend, textOnArc, textSize, TextAlign, fontFamily} from "dvlib";
 import { opt, visualRanges } from "./visual";
 
 

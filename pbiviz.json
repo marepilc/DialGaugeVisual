@@ -4,7 +4,7 @@
         "displayName": "dialgauge",
         "guid": "dialgauge10F3E0734B1E4AF690ADC5B19AB99F8E",
         "visualClassName": "Visual",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "description": "Dial Gauge",
         "supportUrl": "-",
         "gitHubUrl": "https://github.com/marepilc/DialGaugeVisual"

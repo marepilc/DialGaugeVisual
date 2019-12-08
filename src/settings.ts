@@ -41,6 +41,7 @@ export class Options {
     public pointerR: number = 12;
     public pointerL: number = 100;
     public pointerW: number = 4;
+    public pointerSpeed: number = 0.01;
 }
 
 export class Ranges {

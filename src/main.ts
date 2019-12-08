@@ -1,7 +1,6 @@
 'use strict';
 
-import { clear, width, height, linearScale, PI } from "dvlib";
-import { Pointer } from "./pointer";
+import { clear, width, height, linearScale, PI, constrain } from "dvlib";
 import { GaugeRing } from "./gaugering";
 import { data } from "./data";
 import { opt, visualRanges, previousState, pointer } from "./visual";
@@ -13,8 +12,8 @@ export function setup() {
     let scale =  linearScale(visualRanges[0], visualRanges[visualRanges.length - 1], 0, PI);
     pointer.x = width / 2;
     pointer.y = height - opt.options.pointerR;
-    pointer.angle = scale(data);
-    pointer.angle0 = scale(previousState.v);
+    pointer.angle = constrain(scale(data), 0, PI);
+    pointer.angle0 = constrain(scale(previousState.v), 0, PI);
     pointer.currentA = pointer.angle0;
     if (pointer.currentA < pointer.angle) {
         pointer.direction = 'cw';

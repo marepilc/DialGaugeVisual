@@ -37,6 +37,12 @@
                     "type": {
                         "numeric": true
                     }
+                },
+                "pointerSpeed": {
+                    "displayName": "Pointer Speed",
+                    "type": {
+                        "numeric": true
+                    }
                 }
             }
         },

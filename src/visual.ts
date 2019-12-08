@@ -54,9 +54,6 @@ export class Visual implements IVisual {
     constructor(options: VisualConstructorOptions) {
         this.target = options.element;
         pointer = new Pointer();
-        if (document) {
-            
-        }
     }
 
     public update(options: VisualUpdateOptions) {
