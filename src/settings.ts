@@ -46,16 +46,16 @@ export class Options {
 
 export class Ranges {
     public value0: number = 0;
-    public range1name: string = 'Truly Sucks';
-    public range1value: number = 20;
-    public range2name: string = 'Poor';
-    public range2value: number = 40;
-    public range3name: string = 'Decent';
-    public range3value: number = 60;
-    public range4name: string = 'Good';
-    public range4value: number = 80;
-    public range5name: string = 'F**king Great!';
-    public range5value: number = 100;
+    public range1name: string = '';
+    public range1value: number = null;
+    public range2name: string = '';
+    public range2value: number = null;
+    public range3name: string = '';
+    public range3value: number = null;
+    public range4name: string = '';
+    public range4value: number = null;
+    public range5name: string = '';
+    public range5value: number = null;
     public range6name: string = '';
     public range6value: number = null;
 }
