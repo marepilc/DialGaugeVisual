@@ -1,14 +1,14 @@
 {
-    "version": "1.0.1",
-    "author": {"name":"Marek Pilczuk","email":"-"},
+    "version": "1.0.2",
+    "author": {"name":"Marek Pilczuk","email":"marek@dvlib.org"},
     "resources": [
         {
             "resourceId": "rId0",
             "sourceType": 5,
-            "file": "resources/dialgauge10F3E0734B1E4AF690ADC5B19AB99F8E.pbiviz.json"
+            "file": "resources/DialGauge10F3E0734B1E4AF690ADC5B19AB99F8E.pbiviz.json"
         }
     ],
-    "visual": {"name":"dialgauge","displayName":"dialgauge","guid":"dialgauge10F3E0734B1E4AF690ADC5B19AB99F8E","visualClassName":"Visual","version":"1.0.1","description":"Dial Gauge","supportUrl":"-","gitHubUrl":"https://github.com/marepilc/DialGaugeVisual"},
+    "visual": {"name":"dialgauge","displayName":"DialGauge","guid":"DialGauge10F3E0734B1E4AF690ADC5B19AB99F8E","visualClassName":"Visual","version":"1.0.2","description":"Dial Gauge with up to 6 ranges.","supportUrl":"https://github.com/marepilc/DialGaugeVisual/issues","gitHubUrl":"https://github.com/marepilc/DialGaugeVisual"},
     "metadata": {
         "pbivizjson": {
             "resourceId": "rId0"

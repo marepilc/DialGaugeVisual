@@ -1,18 +1,18 @@
 {
     "visual": {
         "name": "dialgauge",
-        "displayName": "dialgauge",
-        "guid": "dialgauge10F3E0734B1E4AF690ADC5B19AB99F8E",
+        "displayName": "DialGauge",
+        "guid": "DialGauge10F3E0734B1E4AF690ADC5B19AB99F8E",
         "visualClassName": "Visual",
-        "version": "1.0.1",
-        "description": "Dial Gauge",
-        "supportUrl": "-",
+        "version": "1.0.2",
+        "description": "Dial Gauge with up to 6 ranges.",
+        "supportUrl": "https://github.com/marepilc/DialGaugeVisual/issues",
         "gitHubUrl": "https://github.com/marepilc/DialGaugeVisual"
     },
     "apiVersion": "2.6.0",
     "author": {
         "name": "Marek Pilczuk",
-        "email": "-"
+        "email": "marek@dvlib.org"
     },
     "assets": {
         "icon": "assets/icon.png"
