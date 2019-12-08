@@ -1,0 +1,218 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Value",
+            "name": "value",
+            "kind": "Measure"
+        }
+    ],
+    "objects": {
+        "options": {
+            "displayName": "Options",
+            "properties": {
+                "pointerColor": {
+                    "displayName": "Pointer Color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "pointerR": {
+                    "displayName": "Pointer Radius",
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "pointerL": {
+                    "displayName": "Pointer Lenght",
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "pointerW": {
+                    "displayName": "Pointer Width",
+                    "type": {
+                        "numeric": true
+                    }
+                }
+            }
+        },
+        "ranges": {
+            "displayName": "Ranges",
+            "properties": {
+                "value0": {
+                    "displayName": "Value 0",
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "range1name": {
+                    "displayName": "Range 1 Name",
+                    "type": {
+                        "text": true
+                    }
+                },
+                "range1value": {
+                    "displayName": "Value 1",
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "range2name": {
+                    "displayName": "Range 2 Name",
+                    "type": {
+                        "text": true
+                    }
+                },
+                "range2value": {
+                    "displayName": "Value 2",
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "range3name": {
+                    "displayName": "Range 3 Name",
+                    "type": {
+                        "text": true
+                    }
+                },
+                "range3value": {
+                    "displayName": "Value 3",
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "range4name": {
+                    "displayName": "Range 4 Name",
+                    "type": {
+                        "text": true
+                    }
+                },
+                "range4value": {
+                    "displayName": "Value 4",
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "range5name": {
+                    "displayName": "Range 5 Name",
+                    "type": {
+                        "text": true
+                    }
+                },
+                "range5value": {
+                    "displayName": "Value 5",
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "range6name": {
+                    "displayName": "Range 6 Name",
+                    "type": {
+                        "text": true
+                    }
+                },
+                "range6value": {
+                    "displayName": "Value 6",
+                    "type": {
+                        "numeric": true
+                    }
+                }
+            }
+        },
+        "dial": {
+            "displayName": "Dial",
+            "properties": {
+                "strokeWidth":{
+                    "displayName": "Stroke Width",
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "strokeColor": {
+                    "displayName": "Stroke Color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "color1": {
+                    "displayName": "Start Color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "color2": {
+                    "displayName": "End Color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "dialRadius": {
+                    "displayName": "Dial Radius",
+                    "type": {
+                        "numeric": true
+                    }
+                }
+            }
+        },
+        "dialText": {
+            "displayName": "Dial Text",
+            "properties": {
+                "fontSize": {
+                    "displayName": "Font Size",
+                    "type": {
+                        "formatting": {
+                            "fontSize": true
+                        }
+                    }
+                },
+                "fontFamily": {
+                    "displayName": "Font Family",
+                    "type": {
+                        "formatting": {
+                            "fontFamily": true
+                        }
+                    }
+                },
+                "fontColor": {
+                    "displayName": "Font Color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "dataViewMappings": [
+        {
+            "single": {
+                "role": "value"
+            },
+            "conditions": [{
+                "value": {
+                    "max": 1
+                }
+            }]
+        }
+    ],
+    "suppressDefaultTitle": true
+}
