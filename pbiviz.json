@@ -1,1 +1,25 @@
-{"visual":{"name":"dialgauge","displayName":"dialgauge","guid":"dialgauge10F3E0734B1E4AF690ADC5B19AB99F8E","visualClassName":"Visual","version":"1.0.0","description":"","supportUrl":"","gitHubUrl":""},"apiVersion":"2.6.0","author":{"name":"","email":""},"assets":{"icon":"assets/icon.png"},"externalJS":null,"style":"style/visual.less","capabilities":"capabilities.json","dependencies":null,"stringResources":[]}
+{
+    "visual": {
+        "name": "dialgauge",
+        "displayName": "dialgauge",
+        "guid": "dialgauge10F3E0734B1E4AF690ADC5B19AB99F8E",
+        "visualClassName": "Visual",
+        "version": "1.0.0",
+        "description": "Dial Gauge",
+        "supportUrl": "-",
+        "gitHubUrl": "https://github.com/marepilc/DialGaugeVisual"
+    },
+    "apiVersion": "2.6.0",
+    "author": {
+        "name": "Marek Pilczuk",
+        "email": "-"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": [],
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": []
+}
